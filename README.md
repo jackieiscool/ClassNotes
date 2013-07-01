@@ -1,8 +1,10 @@
 These are the class notes.
 You can copy them to your computer if you like.
 
-Homework/lab disucssion is here:
-<https://github.com/jherrlin/ClassNotes/issues>
+Homework / Lab Disucssion
+===
+
+See <https://github.com/jherrlin/ClassNotes/issues>.
 
 Updating
 ===
