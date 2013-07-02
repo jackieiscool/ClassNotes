@@ -131,5 +131,22 @@ function loadPics() {
   pics.push("http://1.bp.blogspot.com/-kkFsF03oxOo/UPNVOdEtZBI/AAAAAAAABO8/0_I4inBy71I/s1600/tumblr_mbuypt8R0M1ri87b4o1_1280.jpg")
 }
 ```
+##Memory Game
+
+**What will we need?**  
+
+- index.html
+	- includes (works with) css and javascript files
+- stylesheet (css)
+	- circles
+- javascript (puppies.js)
+	- jQuery (goes in javascript file)
+- /img/puppies (6 puppy pictures - use each twice)
+
+####Getting Started
+
+		git clone https://github.com/aikalima/memory_template.git
+
+
 
 
