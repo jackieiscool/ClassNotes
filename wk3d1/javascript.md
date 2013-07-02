@@ -3,7 +3,7 @@
 ###Resources
 MDN (Mozilla Developer Network) has the official javascript documentation.  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript  
-http://valeriegartland.com/wp-content/uploads/2013/02/Javascript-Reference.pdf
+http://valeriegartland.com/wp-content/uploads/2013/02/Javascript-Reference.pdf  
 
 ###Install Instructions  
 https://gist.github.com/coolaj86/5889096  
@@ -75,6 +75,11 @@ and at the end of the file call the function `main();`
 - Go to localhost/your_path
 - click on the little button on the right
 - go to tool, and then javascript console *this will allow you to play with/debug your javascript in the console.
+
+###Loops
+
+`for (i=0; i< array.length; i+=1);`  
+This is saying that while i is greater than 0, and less than the length of the array, whatever code is inside the loop will be executed. We also increase i by one each time it goes through the loop.  
 
 
 ###Nested Functions
@@ -173,6 +178,13 @@ main();
 
 		// only ruby
 		h[:Alex] = 24
+
+###Classes in Javascript
+
+**Javascript doesn't have classes.**  
+
+At least not in the same way ruby does.  
+
 
 ###Lab
 
