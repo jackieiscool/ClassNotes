@@ -96,14 +96,14 @@ You are wiring functions to objects, and it gets executed on diffrent events
 #### Cat Pics
 
 **HTML**  
-```html
+
 		<body>
     	<h1>Cat Pics</h1>
     	<div><img class='js-pic'
         	src='http://data.whicdn.com/images/27721013/bgnBP_large.jpg' width='250px' /></div>
     	<div><button type='button' class='js-next'>Next</button></div>
 		</body>
-```
+
 
 **javascript**  
 
