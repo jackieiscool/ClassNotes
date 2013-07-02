@@ -1,5 +1,8 @@
 #jQuery
 
+####Resources
+- http://api.jquery.com/
+
 jQuery is a library of already created javascript functions, mostly used to interact with your front-end (that place where HTML lives). Think a ruby gem, but for javascript (library == gem).  
 
 You call on a jQuery function with a **$**  
@@ -146,6 +149,31 @@ function loadPics() {
 ####Getting Started
 
 		git clone https://github.com/aikalima/memory_template.git
+
+
+**javascript psuedo code**  
+
+```javascript
+$(function(){
+
+	// need to handle click on tile
+	// if clicked, diasble it
+
+	// if two images clicked,
+	// compare if they are the same
+	// if so, we have a match
+	// -> for both, apply 'matched' style
+		// and disable
+	// if not
+	// -> reset tiles to 'hidden style'
+
+	// when done, reset board
+
+
+	// the game is over when all tiles are matched
+	// show 'Congrats' and reset board
+});
+```
 
 
 

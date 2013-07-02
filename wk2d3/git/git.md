@@ -26,7 +26,6 @@
 		git push <remote> <branch>
 		git pull <remote> <branch>
 		git clone
-		git 
 
 **git init**  
 This initializes a new git repository (a git repository, not a github repository)
@@ -51,6 +50,10 @@ This adds changes you have made to the git repository
 
 **git clone**  
 This copies a full repo from the cloud to your computer
+
+**git clone vs git init**
+We use git init when we are initializing a new git repository from scratch, and git clone if we are copying an existing git repository.  
+If you use git clone you do not need to use git init.  
 
 
 

@@ -1,0 +1,35 @@
+body {
+  background-color:gold;
+}
+#board {
+  width:400px;
+  overflow:hidden;
+  margin:50px auto;
+}
+#board .tile {
+  background:#b80000;
+}
+#board .tile,
+#board .tile img {
+  display:block;
+  width:100px;
+  height:100px;
+  float:left;
+  border-radius: 50%;
+}
+#board .tile img {
+  visibility:hidden;
+}
+#board .tile.active img {
+  visibility:visible;
+}
+
+
+
+#board .tile.matched {
+  opacity:0.4;
+}
+#board .tile.matched img {
+  visibility:visible;
+}
+
