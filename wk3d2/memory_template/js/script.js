@@ -44,7 +44,7 @@ $(document).ready(function(){
       return false;
     }
     if (is_two_selected()) {
-      deactivate_tiles();
+      deactivate_tiles(); 
     }
     increment_click_counter();
     activate_tile(tile);
