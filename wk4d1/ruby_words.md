@@ -1,0 +1,34 @@
+- alias
+- and
+- begin
+- break
+- case: starts a case statement
+- class: starts a new class
+- def: starts the definition of a method
+- defined?
+- do
+- else: the default if 'if' condition is not passed
+- elsif: adds more if statements to a conditional (deals with multiple conditions)
+- end: ends a block of code
+- ensure
+- false: not true
+- for
+- if: begins an if else statement
+- in
+- module: 
+- next
+- not
+- or
+- redo
+- rescue
+- retry
+- return: returns data that follows the return statement
+- self: refers to the object it is used inside
+- super
+- then
+- true: not false
+- undef
+- unless: tells program to execute code unless a certain condition is true
+- until
+- when: tells program to execute code when a specific condition is true
+
