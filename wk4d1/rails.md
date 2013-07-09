@@ -73,5 +73,7 @@ Variables == lowercase with underscores
 class Names == Camel Case (uppercase, with uppercase letters to distinguish new words)  
 - example: class MoviesController
 
+##Render and Redirect
+
 
 
