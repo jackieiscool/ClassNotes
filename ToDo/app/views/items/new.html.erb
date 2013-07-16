@@ -1,0 +1,6 @@
+Add Item to your List
+
+<%= form_tag(controller: 'items', action: 'create') do %>
+	<%= text_field_tag :description %>
+	<%= submit_tag "Create" %>
+<% end %>
