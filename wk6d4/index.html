@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Animations</title>
+    <style type="text/css" media="screen">
+      #ga-js {
+        position: absolute;
+        left: 0;
+      }
+      #ga-css {
+        position: absolute;
+        top: 200px;
+        -webkit-animation-direction: alternate;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-name: hammertime;
+        -webkit-animation-timing-function: linear;
+      }
+      @-webkit-keyframes hammertime {
+        from { 
+          left: 0;
+        }
+        to {
+          left: 500px;
+        }
+      }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+      // Once the page is loaded
+      //   Every n milliseconds
+      //     If the logo is not all the way to the right
+      //       Move the logo right 1px
+      //     If the logo is not all the way to the left
+      //       Move the logo left 1px
+
+      function animate() {
+        var gaLogo    = document.getElementById("ga-js");
+        var gaStyle   = window.getComputedStyle(gaLogo);
+        var left      = window.parseInt(gaStyle.left);
+        var increment = 2.7;
+        var direction = "right";
+
+        setInterval(function() {
+          var windowWidth = window.innerWidth;
+          var gaLogoWidth = gaLogo.width;
+          var maxLeft = windowWidth - gaLogoWidth;
+
+          if (direction === "right") {
+            left = left + increment;
+            gaLogo.style.left = left + "px";
+            if (left >= maxLeft) direction = "left";
+          } else if (direction === "left") {
+            left = left - increment;
+            gaLogo.style.left = left + "px";
+            if (left <= 0) direction = "right";
+          }
+        }, 1)
+      };
+
+      window.onload = animate;
+    </script>
+  </head>
+
+  <body>
+    <div id="js">
+      <img src="http://www.how-to-draw-funny-cartoons.com/image-files/how-to-draw-a-goat-8.gif" width="200" height="200" id="ga-js">
+    </div>
+    <div id="css">
+      <img src="http://www.how-to-draw-funny-cartoons.com/image-files/how-to-draw-a-goat-8.gif" width="200" height="200" id="ga-css">
+    </div>
+  </body>
+</html>

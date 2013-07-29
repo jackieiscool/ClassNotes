@@ -1,7 +1,6 @@
 #Week 4 - Day 2 
 ##Rails Models and Associations
 
-
 ###Create new app
 
 ```

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AssetProject</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<header>
+	Outfits Project
+	<nav>
+		<ul>
+			<li><%=link_to "Outfits", outfits_path %></li>
+			<li><%=link_to "Create an Outfit", new_outfit_path %></li>
+		</ul>
+	</nav>
+
+</header>
+ Copyright <%= Time.now.year %>
+<%= yield %>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
