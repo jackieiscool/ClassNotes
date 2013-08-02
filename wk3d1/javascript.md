@@ -4,6 +4,7 @@
 MDN (Mozilla Developer Network) has the official javascript documentation.  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript  
 <<<<<<< HEAD
+<<<<<<< HEAD
 http://valeriegartland.com/wp-content/uploads/2013/02/Javascript-Reference.pdf  
 
 ###Install Instructions  
@@ -25,11 +26,16 @@ https://gist.github.com/coolaj86/5889096
 		}
 		main();
 =======
+=======
+>>>>>>> teacher_notes
 
 **Install Instructions**  
 https://gist.github.com/coolaj86/5889096  
 
 *Ignore all "warnings" you get, but not errors. Warnings will say "warning" before them.  
+<<<<<<< HEAD
+>>>>>>> teacher_notes
+=======
 >>>>>>> teacher_notes
 
 ```javascript
@@ -85,6 +91,7 @@ and at the end of the file call the function `main();`
 - go to tool, and then javascript console *this will allow you to play with/debug your javascript in the console.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ###Loops
 
 `for (i=0; i< array.length; i+=1);`  
@@ -95,10 +102,15 @@ This is saying that while i is greater than 0, and less than the length of the a
 
 *Yo dawg! I like functions so much I put a function in my function!*  
 =======
+=======
+>>>>>>> teacher_notes
 
 ##Nested Functions
 
 *Whoa dawg! I like functions so much I put a function in my function!*  
+<<<<<<< HEAD
+>>>>>>> teacher_notes
+=======
 >>>>>>> teacher_notes
 
 In javascript you can always access variables that are above a function in scope. i.e. If you have function1 and then function2 is inside it, function2 can access all of the variable in function1.
@@ -142,6 +154,7 @@ arr.forEach(printToConsole);
 			console.log(i);
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 You will get a warning because you are not using thisArray. It will understand that you just have 'el' in order to get to 'i'.  
 
@@ -209,6 +222,9 @@ https://github.com/jherrlin/ClassNotes/blob/master/wk3d1/people_picker.md
 
 
 
+=======
+You will get a warning because you are not using thisArray. It will understand that you just have 'el' in order to get to 'i'.
+>>>>>>> teacher_notes
 =======
 You will get a warning because you are not using thisArray. It will understand that you just have 'el' in order to get to 'i'.
 >>>>>>> teacher_notes
