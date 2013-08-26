@@ -13,12 +13,12 @@ class Binary
 
 	def self.decimal_to_binary(number)
 		if(number == 0) then 0 end
-    result = ""
-    while(number != 0)
-      result += (number % 2).to_s
-      number = number / 2
-    end
-    result.reverse
+		result = ""
+		while(number != 0)
+			result += (number % 2).to_s
+			number = number / 2
+		end
+		result.reverse
 	end
 
 	def self.decimal_to_hexidecimal(decimal)
